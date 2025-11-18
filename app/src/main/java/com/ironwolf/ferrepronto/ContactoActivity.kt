@@ -3,9 +3,9 @@ package com.ironwolf.ferrepronto
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.button.MaterialButton
 
 class ContactoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -58,8 +58,8 @@ class ContactoActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnWhatsapp = findViewById<MaterialButton>(R.id.btnWhatsapp)
-        btnWhatsapp.setOnClickListener {
+        val ImageView = findViewById<ImageView>(R.id.Whatsapp)
+        ImageView.setOnClickListener {
             val numero = "2225314328"
             val url = "https://wa.me/$numero"
             val intent = Intent(Intent.ACTION_VIEW).apply {
