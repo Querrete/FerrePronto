@@ -9,8 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ferrepronto">
 
-
-    <!-- Pantalla de inicio (Splash) -->
+        <!-- Splash -->
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -21,20 +20,24 @@
             </intent-filter>
         </activity>
 
-        <!-- Pantalla principal (LOGIN) -->
+        <!-- LOGIN -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Ferrepronto" />
 
-        <!-- Pantalla de inicio (HOME) -->
+        <!-- HOME -->
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
 
-        <activity android:name=".ContactoActivity"
+        <!-- CONTACTO -->
+        <activity
+            android:name=".ContactoActivity"
             android:exported="false" />
 
+        <activity android:name=".UbicacionActivity"
+            android:exported="false" />
 
     </application>
 
