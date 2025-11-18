@@ -39,6 +39,11 @@
         <activity android:name=".UbicacionActivity"
             android:exported="false" />
 
+        <!-- COMPRAR -->
+        <activity
+            android:name=".ComprarActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
