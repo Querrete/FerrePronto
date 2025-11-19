@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.button.MaterialButton
 
 class ContactoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,7 +55,17 @@ class ContactoActivity : AppCompatActivity() {
         val regresarhome = findViewById<TextView>(R.id.regresarhome)
         regresarhome.setOnClickListener {
             val intent = Intent(this, HomeActivity::class.java)
-            startActivity(intent)}
+            startActivity(intent)
+        }
+
+        val btnWhatsapp = findViewById<MaterialButton>(R.id.btnWhatsapp)
+        btnWhatsapp.setOnClickListener {
+            val numero = "2225314328"
+            val url = "https://wa.me/$numero"
+            val intent = Intent(Intent.ACTION_VIEW).apply {
+                data = Uri.parse(url)
+            }
+            startActivity(intent)
+        }
     }
 }
-
