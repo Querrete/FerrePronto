@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ferrepronto</string>
+    <string name="Usuario_o_correo">Usuario o Correo</string>
+    <string name="Contrasena">Contraseña</string>
+    <string name="Entrar">Entrar</string>
+    <string name="noRegistrarse">¿Aun no tienes una cuenta?</string>
+    <string name="Registrarse">Regístrate ahora</string>
+    <string name="Cerrar_sesion">Cerrar sesion</string>
+    <string name="Nombre_usuario">Nombre de usuario</string>
+    <string name="Comprar">Comprar</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Acerca_de">Acerca de</string>
+    <string name="Ubicacion">Ubicacion</string>
+    <string name="carrito">carrito</string>
+    <string name="regresar">Regresar</string>
+    <string name="Ubicacion1">Direccion: Av México - Puebla 46,Barrio del Perdón, 72700 San Juan Cuautlancingo, Pue.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>

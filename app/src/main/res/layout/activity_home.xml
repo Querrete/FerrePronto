@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ubicacion">
+
+    <!-- Botón Cerrar Sesión -->
+
+    <!-- Texto principal -->
+
+    <!-- Botón Comprar -->
+
+    <!-- Botón Contacto -->
+
+    <!-- Botón Ubicación -->
+
+    <!-- Botón Acerca de -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Cerrar_sesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/Color_truper"
+        android:text="@string/Cerrar_sesion"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/carrito"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Ubicacion"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="@color/Color_truper"
+        android:text="@string/Ubicacion"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_ubicacion"
+        app:iconGravity="textTop"
+        app:iconSize="32dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comprar"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="298dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="50dp"
+        android:text="Hola Gerardo"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cerrar_sesion" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Contacto"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="@color/Color_truper"
+        android:text="@string/Contacto"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_contacto"
+        app:iconGravity="textTop"
+        app:iconSize="32dp"
+        app:iconTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Comprar"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Acerca_de"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="@color/Color_truper"
+        android:text="@string/Acerca_de"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_info"
+        app:iconGravity="textTop"
+        app:iconSize="32dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Ubicacion"
+        app:layout_constraintTop_toBottomOf="@+id/Contacto"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Comprar"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="@color/Color_truper"
+        android:text="@string/Comprar"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_comprar"
+        app:iconGravity="textTop"
+        app:iconSize="32dp"
+        app:iconTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/carrito"
+        android:layout_width="82dp"
+        android:layout_height="39dp"
+        android:layout_marginHorizontal="1dp"
+        android:layout_marginVertical="1dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="@color/Color_truper"
+        android:text="@string/carrito"
+        android:textColor="@color/white"
+        android:textSize="3sp"
+        app:icon="@drawable/ic_cart"
+        app:iconGravity="textTop"
+        app:iconSize="25dp"
+        app:iconTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/Cerrar_sesion"
+        app:strokeColor="@color/white"
+        tools:ignore="SmallSp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
