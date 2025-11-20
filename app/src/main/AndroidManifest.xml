@@ -36,7 +36,7 @@
             android:name=".ContactoActivity"
             android:exported="false" />
 
-        <activity android:name=".UbicacionActivity"
+        <activity android:name=".UbicacionmapaActivity"
             android:exported="false" />
 
         <!-- COMPRAR -->
