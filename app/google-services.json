@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "510212950422",
+    "project_id": "ferrepronto-64cfa",
+    "storage_bucket": "ferrepronto-64cfa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510212950422:android:b6bf9214713a1dfab675b7",
+        "android_client_info": {
+          "package_name": "com.ironwolf.ferrepronto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510212950422-fhrpe2t9ue5of24aq4rhqohvomvsqh3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ironwolf.ferrepronto",
+            "certificate_hash": "15ad098bfc4ed7b450b194c63daa82b9e7a8c415"
+          }
+        },
+        {
+          "client_id": "510212950422-hgqv99rdbic97nhisu8hcmq9fahuisar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALlhiKF0Z2WRivN98b4r-9KjX09DRaoec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510212950422-hgqv99rdbic97nhisu8hcmq9fahuisar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
