@@ -18,6 +18,8 @@ class HomeActivity : AppCompatActivity() {
             finish()
         }
 
+
+
         // 🔘 BOTÓN CONTACTO
         val btnContacto = findViewById<MaterialButton>(R.id.Contacto)
         btnContacto.setOnClickListener {
@@ -39,11 +41,12 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // 🔘 BOTÓN ACERCA DE
-        val btnAcercaDe = findViewById<MaterialButton>(R.id.Acerca_de)
-        btnAcercaDe.setOnClickListener {
+        // 🔘 BOTÓN ACERCA
+        val btnAcerca_de = findViewById<MaterialButton>(R.id.Acerca_de)
+        btnAcerca_de.setOnClickListener {
             val intent = Intent(this, AcercaDeActivity::class.java)
             startActivity(intent)
         }
+
     }
 }

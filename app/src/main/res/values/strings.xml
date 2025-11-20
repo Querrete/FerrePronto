@@ -13,6 +13,12 @@
     <string name="Ubicacion">Ubicacion</string>
     <string name="carrito">carrito</string>
     <string name="regresar">Regresar</string>
+    <string name="Carpinteria">Carpinteria</string>
+    <string name="Electricidad">Electricidad</string>
+    <string name="Plomeria">Plomeria</string>
+    <string name="Tornilleria">Tornilleria</string>
+    <string name="Construccion">Construcción</string>
+    <string name="Pinturas">Pinturas</string>
     <string name="Ubicacion1">Direccion: Av México - Puebla 46,Barrio del Perdón, 72700 San Juan Cuautlancingo, Pue.</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="contacto">Contacto</string>

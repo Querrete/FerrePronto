@@ -44,6 +44,11 @@
             android:name=".ComprarActivity"
             android:exported="false" />
 
+        <!-- COMPRAR -->
+        <activity
+            android:name=".AcercaDeActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
