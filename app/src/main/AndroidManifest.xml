@@ -42,9 +42,15 @@
             android:name=".HomeActivity"
             android:exported="false" />
 
+        <!-- Pantalla de contacto -->
         <activity
             android:name=".ContactoActivity"
             android:exported="false" />
+
+        <!-- Pantalla de comprar -->
+        <activity android:name=".ComprarActivity"
+            android:exported="false" />
+
 
     </application>
 
