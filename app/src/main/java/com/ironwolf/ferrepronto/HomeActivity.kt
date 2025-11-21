@@ -25,6 +25,13 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        // 🔘 BOTÓN COMPRAR
+        val btnComprar = findViewById<MaterialButton>(R.id.Comprar)
+        btnComprar.setOnClickListener {
+            val intent = Intent(this, ComprarActivity::class.java)
+            startActivity(intent)
+        }
+
         // 🔘 BOTÓN UBICACIÓN (si existe)
         val btnUbicacion = findViewById<MaterialButton>(R.id.Ubicacion)
         btnUbicacion.setOnClickListener {
