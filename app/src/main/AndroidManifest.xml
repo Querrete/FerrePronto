@@ -8,49 +8,62 @@
         android:roundIcon="@mipmap/ic_launcher_ferrepronto_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ferrepronto">
+        <activity
+            android:name=".JardineriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConstrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PinturasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TornilleriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlomeriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ElectricidadActivity"
+            android:exported="false" />
 
         <!-- API KEY de Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBem-5oMoJfx88Cg6qzqqXsWgwOVwoTcmA" />
-
-        <!-- Pantalla del mapa -->
+            android:value="AIzaSyBem-5oMoJfx88Cg6qzqqXsWgwOVwoTcmA" /> <!-- Pantalla del mapa -->
         <activity
             android:name=".UbicacionmapaActivity"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
-
-        <!-- Pantalla de inicio (Splash) -->
+            android:label="@string/title_activity_maps" /> <!-- Pantalla de inicio (Splash) -->
         <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Pantalla principal (LOGIN) -->
+        </activity> <!-- Pantalla principal (LOGIN) -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Ferrepronto" />
-
-        <!-- Pantalla de inicio (HOME) -->
+            android:theme="@style/Theme.Ferrepronto" /> <!-- Pantalla de inicio (HOME) -->
         <activity
             android:name=".HomeActivity"
-            android:exported="false" />
-
-        <!-- Pantalla de contacto -->
+            android:exported="false" /> <!-- Pantalla de contacto -->
         <activity
             android:name=".ContactoActivity"
+            android:exported="false" /> <!-- Pantalla de comprar -->
+        <activity
+            android:name=".ComprarActivity"
+            android:exported="false" /> <!-- Pantalla de comprar -->
+        <activity
+            android:name=".AcercaDeActivity"
             android:exported="false" />
-
-        <!-- Pantalla de comprar -->
-        <activity android:name=".ComprarActivity"
+        <activity
+            android:name=".CarpinteriaActivity"
             android:exported="false" />
-
 
     </application>
 

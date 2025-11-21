@@ -10,9 +10,9 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/carpinteria"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">  <!-- Cambia a wrap_content -->
+        android:layout_height="wrap_content">
 
-        <!-- Todo tu contenido actual aquí -->
+
         <Button
             android:id="@+id/regresarhome"
             android:layout_width="wrap_content"
