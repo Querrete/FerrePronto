@@ -1,73 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/carpinteria"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/carpinteria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">  <!-- Cambia a wrap_content -->
 
-    <Button
-        android:id="@+id/regresarhome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="259dp"
-        android:text="@string/regresar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <!-- Todo tu contenido actual aquí -->
+        <Button
+            android:id="@+id/regresarhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="259dp"
+            android:text="@string/regresar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/tvComprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categorias"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.135" />
 
-    <TextView
-        android:id="@+id/tvComprar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Categorias"
-        android:textSize="70sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.157" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Carpinteria"
+            android:layout_width="345dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Color_truper"
+            android:text="@string/Carpinteria"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:icon="@drawable/carpinteria"
+            app:iconSize="80dp"
+            app:iconTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvComprar"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/Carpinteria"
-        android:layout_width="345dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="64dp"
-        android:backgroundTint="@color/Color_truper"
-        android:text="@string/Carpinteria"
-        android:textColor="@color/white"
-        android:textSize="35sp"
-        app:icon="@drawable/carpinteria"
-        app:iconSize="80dp"
-        app:iconTint="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvComprar"
-        app:strokeColor="@color/white"
-        app:strokeWidth="1dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Electricidad"
+            android:layout_width="343dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Color_truper"
+            android:text="@string/Electricidad"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:icon="@drawable/electricidad"
+            app:iconSize="80dp"
+            app:iconTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Carpinteria"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/Electricidad"
-        android:layout_width="343dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="@color/Color_truper"
-        android:text="@string/Electricidad"
-        android:textColor="@color/white"
-        android:textSize="35sp"
-        app:icon="@drawable/tornillos"
-        app:iconSize="80dp"
-        app:iconTint="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Carpinteria"
-        app:strokeColor="@color/white"
-        app:strokeWidth="1dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Plomeria"
+            android:layout_width="343dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Color_truper"
+            android:text="@string/Plomeria"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:icon="@drawable/plomeria"
+            app:iconSize="80dp"
+            app:iconTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Electricidad"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Tornillos"
+            android:layout_width="343dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Color_truper"
+            android:text="@string/Tornilleria"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:icon="@drawable/tornillos"
+            app:iconSize="80dp"
+            app:iconTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Plomeria"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Pinturas"
+            android:layout_width="343dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Color_truper"
+            android:text="@string/Pinturas"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:icon="@drawable/ic_pinturas"
+            app:iconSize="80dp"
+            app:iconTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Tornillos"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Construccion"
+            android:layout_width="343dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Color_truper"
+            android:text="@string/Construccion"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:icon="@drawable/construccion"
+            app:iconSize="80dp"
+            app:iconTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Pinturas"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Jardineria"
+            android:layout_width="343dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Color_truper"
+            android:text="@string/Jardineria"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:icon="@drawable/jardineria"
+            app:iconSize="80dp"
+            app:iconTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Construccion"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

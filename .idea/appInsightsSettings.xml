@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.ironwolf.ferrepronto" />
+                  <option name="mobileSdkAppId" value="1:510212950422:android:b6bf9214713a1dfab675b7" />
+                  <option name="projectId" value="ferrepronto-64cfa" />
+                  <option name="projectNumber" value="510212950422" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
