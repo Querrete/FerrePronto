@@ -4,12 +4,23 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_ferrepronto_round"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_ferrepronto_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ferrepronto">
 
-        <!-- Splash -->
+        <!-- API KEY de Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBem-5oMoJfx88Cg6qzqqXsWgwOVwoTcmA" />
+
+        <!-- Pantalla del mapa -->
+        <activity
+            android:name=".UbicacionmapaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+
+        <!-- Pantalla de inicio (Splash) -->
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -20,23 +31,19 @@
             </intent-filter>
         </activity>
 
-        <!-- LOGIN -->
+        <!-- Pantalla principal (LOGIN) -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Ferrepronto" />
 
-        <!-- HOME -->
+        <!-- Pantalla de inicio (HOME) -->
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
 
-        <!-- CONTACTO -->
         <activity
             android:name=".ContactoActivity"
-            android:exported="false" />
-
-        <activity android:name=".UbicacionActivity"
             android:exported="false" />
 
     </application>

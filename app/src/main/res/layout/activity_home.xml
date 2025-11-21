@@ -19,7 +19,7 @@
     <!-- Botón Acerca de -->
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/Cerrar_sesion"
+        android:id="@+id/btnCerrar_sesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Cerrar_sesion" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCerrar_sesion" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Contacto"
@@ -143,7 +143,7 @@
         app:iconSize="25dp"
         app:iconTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Cerrar_sesion"
+        app:layout_constraintTop_toTopOf="@id/btnCerrar_sesion"
         app:strokeColor="@color/white"
         tools:ignore="SmallSp" />
 

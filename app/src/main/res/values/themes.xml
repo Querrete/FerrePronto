@@ -2,15 +2,15 @@
 
     <!-- Tema principal de la app -->
     <style name="Theme.Ferrepronto" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Color principal naranja -->
         <item name="colorPrimary">#ff6720</item>
-        <item name="colorPrimaryVariant">#e65c1c</item>
+        <item name="colorPrimaryContainer">#e65c1c</item>
         <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryContainer</item>
         <item name="android:navigationBarColor">?attr/colorPrimary</item>
     </style>
 
-    <!-- Tema del SplashScreen -->
+    <!-- Tema del SplashScreen moderno -->
     <style name="Theme.Ferrepronto.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#ff6720</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ferrepronto_logo</item>

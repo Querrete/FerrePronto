@@ -11,7 +11,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         // 🔘 BOTÓN CERRAR SESIÓN
-        val btnCerrarSesion = findViewById<MaterialButton>(R.id.Cerrar_sesion)
+        val btnCerrarSesion = findViewById<MaterialButton>(R.id.btnCerrar_sesion)
         btnCerrarSesion.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
@@ -28,7 +28,7 @@ class HomeActivity : AppCompatActivity() {
         // 🔘 BOTÓN UBICACIÓN (si existe)
         val btnUbicacion = findViewById<MaterialButton>(R.id.Ubicacion)
         btnUbicacion.setOnClickListener {
-            val intent = Intent(this, UbicacionActivity::class.java)
+            val intent = Intent(this, UbicacionmapaActivity::class.java)
             startActivity(intent)
         }
 

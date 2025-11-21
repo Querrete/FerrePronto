@@ -23,7 +23,7 @@
     <string name="telefonocelular">222 426 63 01</string>
     <string name="correohotmail">ferreteriasanjuan1@hotmail.com</string>
     <string name="correogmail">ferreteriasanjuan1@gmail.com</string>
-
-
+    <string name="contrasenaolvidada">Contraseña olvidada</string>
+    <string name="default_web_client_id">510212950422-hgqv99rdbic97nhisu8hcmq9fahuisar.apps.googleusercontent.com</string>
 
 </resources>
